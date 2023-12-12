@@ -11,11 +11,11 @@ const NavInterface = () => {
 
     const navLink = <>
         <li className="flip-horizontal-bottom duration-500 text-xs sm:text-base md:text-xl mb-2 sm:mb-0">
-            <NavLink>Home</NavLink>
+            <NavLink to={"/"}>Home</NavLink>
         </li>
         <div className="border-l-2 h-[10px] hidden sm:block"></div>
         <li className="flip-horizontal-bottom duration-500 text-xs sm:text-base md:text-xl mb-2 sm:mb-0">
-            <NavLink>Skills</NavLink>
+            <NavLink to={"/skills"}>Skills</NavLink>
         </li>
         <div className="border-l-2 h-[10px] hidden sm:block"></div>
         <li className="flip-horizontal-bottom duration-500 text-xs sm:text-base md:text-xl mb-2 sm:mb-0">
