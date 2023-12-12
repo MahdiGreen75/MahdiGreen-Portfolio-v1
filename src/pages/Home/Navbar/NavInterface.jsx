@@ -19,11 +19,11 @@ const NavInterface = () => {
         </li>
         <div className="border-l-2 h-[10px] hidden sm:block"></div>
         <li className="flip-horizontal-bottom duration-500 text-xs sm:text-base md:text-xl mb-2 sm:mb-0">
-            <NavLink>Contact Me</NavLink>
+            <NavLink to={`/contacts`}>Contact Me</NavLink>
         </li>
         <div className="border-l-2 h-[10px] hidden sm:block"></div>
         <li className="flip-horizontal-bottom duration-500 text-xs sm:text-base md:text-xl mb-2 sm:mb-0">
-            <NavLink>About</NavLink>
+            <NavLink to={"/about"}>About</NavLink>
         </li>
     </>
     console.log(hamburger)
@@ -42,12 +42,12 @@ const NavInterface = () => {
             <div >
                 <ol className="hidden sm:flex sm:gap-2">
                     <li>
-                        <NavLink>
+                        <NavLink to={`https://www.linkedin.com/in/md-mahdi-hasan-67a922278/`}>
                             <CiLinkedin className="text-3xl hover:text-white active:text-white" />
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink>
+                        <NavLink to={`https://www.facebook.com/profile.php?id=100025372359493`}>
                             <CiFacebook className="text-3xl hover:text-white active:text-white" />
                         </NavLink>
                     </li>

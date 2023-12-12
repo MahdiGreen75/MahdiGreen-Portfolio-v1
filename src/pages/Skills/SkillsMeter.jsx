@@ -8,6 +8,9 @@ const SkillsMeter = () => {
         <div className="circle per-90">
             <div className="inner leading-7">CSS <br /> 90%</div>
         </div>
+        <div className="circle per-80">
+            <div className="inner leading-7">Tailwind CSS<br /> 80%</div>
+        </div>
         <div className="circle per-100">
             <div className="inner leading-7">JS <br />100%</div>
         </div>

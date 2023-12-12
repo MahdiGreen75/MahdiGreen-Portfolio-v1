@@ -40,6 +40,9 @@ body {
 .circle.per-30 {
   background-image: conic-gradient(#BB42EB 30%, #FFCDB2 0);
 }
+.circle.per-80 {
+  background-image: conic-gradient(#BB42EB 80%, #FFCDB2 0);
+}
 .circle.per-20 {
   background-image: conic-gradient(#4D42EB 20%, #FFCDB2 0);
 }

@@ -9,9 +9,9 @@ import { FaGit } from "react-icons/fa";
 import { GrDeploy } from "react-icons/gr";
 const Experience = () => {
     return (
-        <div>
+        <div className="flex flex-col items-center justify-center gap-5 m-5">
             <HeadingTitle title={"work experience"}></HeadingTitle>
-            <div className="p-5 border-2">
+            <div className="p-5 border-2 rounded-xl">
                 <p className="text-base font-semibold"><span className="mr-1 text-extrabold p-1 rounded-sm bg-blue-600">Note:</span> I have no Professional word experience.During my learning period.
                     I achived some client side and server side programming using react, node,
                     mongodb and countless npm packages.
@@ -20,11 +20,11 @@ const Experience = () => {
                     <ol className="flex flex-col gap-1 mt-2">
                         <li className="flex">
                         <SiMongodb className="p-1 text-3xl text-green-600 border mr-1 rounded-full"/>
-                            Proficiency in working with MongoDB, a NoSQL database, for storing and retrieving data.
+                            I have done basic mongodb CRUD operations.
                         </li>
                         <li className="flex">
                         <SiExpress  className="p-1 text-3xl text-white-600 border mr-1 rounded-full"/>
-                            Strong knowledge of Express.js, a web application framework for Node.js, to build robust and scalable server-side applications.
+                            I have used express and jwt to secure API calls. As well as, combinely use with mongodb to perform CRUD operations.
                         </li>
                         <li className="flex">
                         <IoLogoReact  className="p-1 text-3xl text-blue-600 border mr-1 rounded-full"/>
@@ -32,15 +32,15 @@ const Experience = () => {
                         </li>
                         <li className="flex">
                         <AiTwotoneApi  className="p-1 text-3xl text-red-600 border mr-1 rounded-full"/>
-                            Ability to design and implement RESTful APIs for communication between the frontend and backend components.
+                            Implement REST API Architecture in a simple manner in my last project included in the section below.
                         </li>
                         <li className="flex">
                         <IoLogoJavascript  className="p-1 text-3xl text-yellow-500 border mr-1 rounded-full"/>
-                            Proficiency in modern JavaScript (ES6 and beyond) for both frontend and backend development.
+                            I have proficiency in modern JavaScript (ES6 and beyond) .
                         </li>
                         <li className="flex">
                         <FaGit  className="p-1 text-3xl border mr-1 rounded-full"/>
-                            Knowledge of version control systems, particularly Git, for collaborative development and code management.
+                            I have knowledge of version control systems, particularly Git, for collaborative development and code management.
                         </li>
                         <li className="flex">
                         <FaSyncAlt  className="p-1 text-3xl text-pink-600 border mr-1 rounded-full"/>
